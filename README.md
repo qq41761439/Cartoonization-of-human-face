@@ -4,7 +4,7 @@
 ## CycleGAN
 CycleGAN 其实就是一个 A→B 单向 GAN 加上一个 B→A 单向 GAN。两个 GAN 共享两个生成器，然后各自带一个判别器，所以加起来总共有两个判别器和两个生成器。一个单向 GAN 有两个 loss，而 CycleGAN 加起来总共有四个 loss。  
 
-[CycleGAN](https://github.com/junyanz/CycleGAN) 论文的原版原理图和公式如下：
+CycleGAN [论文及代码](https://github.com/junyanz/CycleGAN) 原版原理图和公式如下：
 ![](pic/cyclegan_model.png)
 
 ### 数据源
